@@ -228,7 +228,7 @@ public class AddressBookManagerIntegrationTest
     }
 
 	@Test
-    public void should_allowMaintainance_ofMultipleAddressBooksA()
+    public void should_allowAddContacts_toMultipleAddressBooks()
     {
 		// A new manager is created, with contacts in 2 address books:
 		AddressBookManager manager = new AddressBookManager();
@@ -249,7 +249,7 @@ public class AddressBookManagerIntegrationTest
     }
 
 	@Test
-    public void should_allowMaintainance_ofMultipleAddressBooksB()
+    public void should_allowRemoval_ofCompleteAddressBooks()
     {
 		// A new manager is created, with contacts in 2 address books:
 		AddressBookManager manager = new AddressBookManager();
@@ -267,7 +267,7 @@ public class AddressBookManagerIntegrationTest
     }
 
 	@Test
-    public void should_allowMaintainance_ofMultipleAddressBooksC()
+    public void should_shouldKeep_UniqueContacts()
     {
 		// A new manager is created, with contacts in 2 address books:
 		AddressBookManager manager = new AddressBookManager();

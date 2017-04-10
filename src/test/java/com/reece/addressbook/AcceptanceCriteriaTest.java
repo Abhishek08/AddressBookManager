@@ -54,7 +54,7 @@ public class AcceptanceCriteriaTest
      * Acceptance criteria #1: Users should be able to add new contact entries
      */
 	@Test
-	public void testAddContact() {
+	public void addContactTest() {
 		manager.addContact(new Contact("Ambulance", "000"));
 
 		assertEquals(9, manager.getAllContacts().size());
@@ -65,7 +65,7 @@ public class AcceptanceCriteriaTest
      * Acceptance criteria #2: Users should be able to remove existing contact entries
      */
 	@Test
-	public void testRemoveContact() {
+	public void removeContactTest() {
 		manager.removeContactByName("Floods");
 
 		Set<Contact> contacts = manager.getAllContacts();
@@ -77,7 +77,7 @@ public class AcceptanceCriteriaTest
      * Acceptance criteria #3: Users should be able to print all contacts in an address book
      */
 	@Test
-	public void testGetContactsInAdressBook() {
+	public void getContactsInAdressBookTest() {
 		Set<Contact> contacts = manager.getContacts("friends");
 		assertTrue(contacts.contains(new Contact("Archie")));
 		assertTrue(contacts.contains(new Contact("Betty")));
@@ -99,7 +99,7 @@ public class AcceptanceCriteriaTest
      * Acceptance criteria #4: Users should be able to maintain multiple address books
      */
 	@Test
-	public void testMaintainMultipleAddressBooks() {
+	public void maintainMultipleAddressBooksTest() {
 
     	// Assert the existence of all address books
     	Set<String> books = manager.getAllAdressBooks();
@@ -135,7 +135,7 @@ public class AcceptanceCriteriaTest
 	 * contacts across multiple address books
 	 */
 	@Test
-	public void testUniqueContactsInAllAddressBooks() {
+	public void uniqueContactsInAllAddressBooksTest() {
 		// let's add some duplicated entries across different address books:
     	manager.addContact(new Contact("Betty",    "0123 222222"), "family"); // exists in "friends"
     	manager.addContact(new Contact("Veronica", "0123 333333"), "work"); // exists in "friends"
