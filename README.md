@@ -1,7 +1,7 @@
 # AddressBook Manager
 A simple yet powerful address book and contact manager (Reece.com.au coding challenge).<br>
 By Hernan Rojas.<br>
-Last edited: April 9th, 2017.
+Last edited: April 10th, 2017.
 
 # Challenge statement
 As a Reece Branch Manager I would like an address book application on my PC So that I can keep track of my customer contacts
