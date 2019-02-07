@@ -1,10 +1,10 @@
 # AddressBook Manager
-A simple yet powerful address book and contact manager (Reece.com.au coding challenge).<br>
+A simple yet powerful address book and contact manager (challenge).<br>
 By Hernan Rojas.<br>
 Last edited: April 10th, 2017.
 
 # Challenge statement
-As a Reece Branch Manager I would like an address book application on my PC So that I can keep track of my customer contacts
+As Branch Manager I would like an address book application on my PC So that I can keep track of my customer contacts
 
 ## Acceptance Criteria
 - Address book will hold name and phone numbers of contact entries
@@ -31,7 +31,7 @@ My aim was to deliver a very simple and concise solution that demonstrated a goo
   +---main
   ¦ +---java
   ¦   +---com
-  ¦     +---reece
+  ¦     +---r33c3
   ¦       +---addressbook
   ¦         ¦ AddressBookManager.java                  Logic for management of address books and contacts
   ¦         ¦
@@ -42,7 +42,7 @@ My aim was to deliver a very simple and concise solution that demonstrated a goo
   +---test
     +---java
       +---com
-        +---reece
+        +---r33c3
           +---shopping
             +---test
               | AcceptanceCriteriaTest.java            Tests that focus on demonstrating acceptance criteria
